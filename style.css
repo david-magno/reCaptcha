@@ -1,0 +1,268 @@
+.g-recaptcha {
+    margin:auto;
+    overflow: hidden;
+    display: block;
+    transform: scale(3);
+}
+.pad{
+    background-color: #f9f9f9;
+    z-index: 3;
+}
+.body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9f9f9;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+body{
+    overflow: hidden;
+}
+html{
+    overflow: hidden;
+    background-color: #f9f9f9;
+}
+
+@media only screen and (min-width:375px){
+    .top{
+        /* background-color: red!important; */
+        position: absolute;
+        width: 60em;
+        height: 4em;
+        top: 40vh
+    }
+    .bottom{
+        /* background-color: red!important; */
+        position: absolute;
+        width: 60em;
+        height: 4em;
+        bottom: 40.5vh;
+    }
+    .right{
+        /* background-color: red!important; */
+        position: absolute;
+        width: 2em;
+        height: 15em;
+        right:2vw
+    }
+    .left{
+        /* background-color: red!important; */
+        position: absolute;
+        width: 2em;
+        height: 15em;
+        left:2vw
+    }
+}
+@media only screen and (min-width:414px){
+    .top{
+        /* background-color: red!important; */
+        position: absolute;
+        width: 60em;
+        height: 4em;
+        top:41.7vh
+    }
+    .bottom{
+        /* background-color: red!important; */
+        position: absolute;
+        width: 60em;
+        height: 4em;
+        bottom:42vh
+    }
+    .right{
+        /* background-color: red!important; */
+        position: absolute;
+        width: 2em;
+        height: 15em;
+        right:2vw
+    }
+    .left{
+        /* background-color: red!important; */
+        position: absolute;
+        width: 2em;
+        height: 15em;
+        left:2vw
+    }
+} 
+@media only screen and (min-width:412px){
+    .top{
+        /* background-color: red!important; */
+        position: absolute;
+        width: 60em;
+        height: 4em;
+        top:42vh
+    }
+    .bottom{
+        /* background-color: red!important; */
+        position: absolute;
+        width: 60em;
+        height: 4em;
+        bottom:43vh
+    }
+    .right{
+        /* background-color: red!important; */
+        position: absolute;
+        width: 2em;
+        height: 15em;
+        right:2vw
+    }
+    .left{
+        /* background-color: red!important; */
+        position: absolute;
+        width: 2em;
+        height: 15em;
+        left:2vw
+    }
+} 
+@media only screen and (min-width:820px){
+    .top{
+        /* background-color: red!important; */
+        position: absolute;
+        width: 60em;
+        height: 4em;
+        top:38vh
+    }
+    .bottom{
+        /* background-color: red!important; */
+        position: absolute;
+        width: 60em;
+        height: 4em;
+        bottom:38vh
+    }
+    .right{
+        /* background-color: red!important; */
+        position: absolute;
+        width: 2em;
+        height: 15em;
+        right:2vw
+    }
+    .left{
+        /* background-color: red!important; */
+        position: absolute;
+        width: 2em;
+        height: 15em;
+        left:2vw
+    }
+} 
+@media only screen and (min-width:912px){
+    .top{
+        /* background-color: red!important; */
+        position: absolute;
+        width: 60em;
+        height: 4em;
+        top:38vh
+    }
+    .bottom{
+        /* background-color: red!important; */
+        position: absolute;
+        width: 60em;
+        height: 4em;
+        bottom:38.5vh
+    }
+    .right{
+        /* background-color: red!important; */
+        position: absolute;
+        width: 2em;
+        height: 15em;
+        right:2vw
+    }
+    .left{
+        /* background-color: red!important; */
+        position: absolute;
+        width: 2em;
+        height: 15em;
+        left:2vw
+    }
+} 
+@media only screen and (min-width:280px){
+    .top{
+        /* background-color: red!important; */
+        position: absolute;
+        width: 60em;
+        height: 4em;
+        top:43vh
+    }
+    .bottom{
+        /* background-color: red!important; */
+        position: absolute;
+        width: 60em;
+        height: 4em;
+        bottom:43vh
+    }
+    .right{
+        /* background-color: red!important; */
+        position: absolute;
+        width: 2em;
+        height: 15em;
+        right:2vw
+    }
+    .left{
+        /* background-color: red!important; */
+        position: absolute;
+        width: 2em;
+        height: 15em;
+        left:2vw
+    }
+} 
+@media only screen and (min-width:1024px){
+    .top{
+        /* background-color: red!important; */
+        position: absolute;
+        width: 60em;
+        height: 4em;
+        top:22vh
+    }
+    .bottom{
+        /* background-color: red!important; */
+        position: absolute;
+        width: 60em;
+        height: 4em;
+        bottom:22vh
+    }
+    .right{
+        /* background-color: red!important; */
+        position: absolute;
+        width: 2em;
+        height: 15em;
+        right:2.5vw
+    }
+    .left{
+        /* background-color: red!important; */
+        position: absolute;
+        width: 2em;
+        height: 15em;
+        left:4vw
+    }
+} 
+@media only screen and (min-width:1280px){
+    .top{
+        /* background-color: red!important; */
+        position: absolute;
+        width: 60em;
+        height: 4em;
+        top:28vh
+    }
+    .bottom{
+        /* background-color: red!important; */
+        position: absolute;
+        width: 60em;
+        height: 4em;
+        bottom:29vh
+    }
+    .right{
+        /* background-color: red!important; */
+        position: absolute;
+        width: 2em;
+        height: 15em;
+        right:14vw
+    }
+    .left{
+        /* background-color: red!important; */
+        position: absolute;
+        width: 2em;
+        height: 15em;
+        left:15vw
+    }
+} 
+
+
